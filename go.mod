@@ -1,4 +1,4 @@
-module github.com/AllenDang/giu
+module github.com/Glenn-Gray-Labs/giu
 
 go 1.13
 

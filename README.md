@@ -1,6 +1,6 @@
 # giu
 
-[![Join the chat at https://gitter.im/AllenDang-giu/community](https://badges.gitter.im/AllenDang-giu/community.svg)](https://gitter.im/AllenDang-giu/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge) [![Go Report Card](https://goreportcard.com/badge/github.com/AllenDang/giu)](https://goreportcard.com/report/github.com/AllenDang/giu) [![Build Status](https://travis-ci.org/AllenDang/giu.svg?branch=master)](https://travis-ci.org/AllenDang/giu) [![Godoc Card](https://camo.githubusercontent.com/fd3cd5d5f44237541b35fcfdcba2fd4466a60c12/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f476f646f632d7265666572656e63652d626c75652e737667)](https://pkg.go.dev/github.com/AllenDang/giu?tab=doc)
+[![Join the chat at https://gitter.im/AllenDang-giu/community](https://badges.gitter.im/AllenDang-giu/community.svg)](https://gitter.im/AllenDang-giu/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge) [![Go Report Card](https://goreportcard.com/badge/github.com/Glenn-Gray-Labs/giu)](https://goreportcard.com/report/github.com/Glenn-Gray-Labs/giu) [![Build Status](https://travis-ci.org/AllenDang/giu.svg?branch=master)](https://travis-ci.org/AllenDang/giu) [![Godoc Card](https://camo.githubusercontent.com/fd3cd5d5f44237541b35fcfdcba2fd4466a60c12/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f476f646f632d7265666572656e63652d626c75652e737667)](https://pkg.go.dev/github.com/Glenn-Gray-Labs/giu?tab=doc)
 
 Cross platform rapid GUI framework for golang based on [Dear ImGui](https://github.com/ocornut/imgui) and the great golang binding [imgui-go](https://github.com/inkyblackness/imgui-go).
 
@@ -27,9 +27,9 @@ Compare to other Dear ImGui golang bindings, giu has following features:
 - Freetype font rendering support.
 - OS clipboard support.
 
-![Screenshot](https://github.com/AllenDang/giu/raw/master/examples/imguidemo/screenshot.png)
-![Screenshot1](https://github.com/AllenDang/giu/blob/master/screenshots/SqlPower.png)
-![Screenshot2](https://github.com/AllenDang/giu/blob/master/screenshots/Chart.png)
+![Screenshot](https://github.com/Glenn-Gray-Labs/giu/raw/master/examples/imguidemo/screenshot.png)
+![Screenshot1](https://github.com/Glenn-Gray-Labs/giu/blob/master/screenshots/SqlPower.png)
+![Screenshot2](https://github.com/Glenn-Gray-Labs/giu/blob/master/screenshots/Chart.png)
 
 ## Hello world
 
@@ -39,7 +39,7 @@ package main
 import (
     "fmt"
 
-    g "github.com/AllenDang/giu"
+    g "github.com/Glenn-Gray-Labs/giu"
 )
 
 func onClickMe() {
@@ -67,11 +67,11 @@ func main() {
 
 Here is result.
 
-![Helloworld](https://github.com/AllenDang/giu/raw/master/examples/helloworld/helloworld.png)
+![Helloworld](https://github.com/Glenn-Gray-Labs/giu/raw/master/examples/helloworld/helloworld.png)
 
 ## Document
 
-Check [Wiki](https://github.com/AllenDang/giu/wiki)
+Check [Wiki](https://github.com/Glenn-Gray-Labs/giu/wiki)
 
 ## Embed Lua as script language to create UI
 
@@ -81,7 +81,7 @@ This is a very interesting use case and it is incredibly easy.
 package main
 
 import (
-	g "github.com/AllenDang/giu"
+	g "github.com/Glenn-Gray-Labs/giu"
 	lua "github.com/yuin/gopher-lua"
 	luar "layeh.com/gopher-luar"
 )

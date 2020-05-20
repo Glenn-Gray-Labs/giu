@@ -1,7 +1,7 @@
 package giu
 
 import (
-	"github.com/AllenDang/giu/imgui"
+	"github.com/Glenn-Gray-Labs/giu/imgui"
 )
 
 var (

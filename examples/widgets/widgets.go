@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"time"
 
-	g "github.com/AllenDang/giu"
-	"github.com/AllenDang/giu/imgui"
+	g "github.com/Glenn-Gray-Labs/giu"
+	"github.com/Glenn-Gray-Labs/giu/imgui"
 )
 
 var (

@@ -1,6 +1,6 @@
 package giu
 
-import "github.com/AllenDang/giu/imgui"
+import "github.com/Glenn-Gray-Labs/giu/imgui"
 
 func IsItemHovered() bool {
 	return imgui.IsItemHovered()
